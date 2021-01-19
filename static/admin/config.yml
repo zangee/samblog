@@ -1,3 +1,6 @@
+# when using the default proxy server port
+local_backend: true
+
 backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
@@ -17,9 +20,10 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Update Date", name: "lastmod", widget: "datetime"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Draft", name: "draft", widget: "boolean"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Categories", name: "categories", widget: "list"}
       - {label: "Author", name: "author", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number", required: false, value_type: "int",  min: 1,  max: 10}
       - {label: "Body", name: "body", widget: "markdown"}

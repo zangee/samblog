@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bogus on Jane - A super concise theme for Hugo</title>
+    <link>http://localhost:1313/tags/bogus/</link>
+    <description>Recent content in bogus on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Jan 2021 01:40:17 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/bogus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>첫 포스트 입니다.</title>
+      <link>http://localhost:1313/post/2021-01-19-%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%9E%85%EB%8B%88%EB%8B%A4/</link>
+      <pubDate>Tue, 19 Jan 2021 01:40:17 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/2021-01-19-%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8A%B8-%EC%9E%85%EB%8B%88%EB%8B%A4/</guid>
+      <description>안녕하세요. 첫 포스트 입니다. 이렇게 CMS를 사용하면 블로그를 편하게 사용할 수 있습니다. 한글의 타이핑에는 문제가 있네요. 다른곳에서 쓰고 붙여넣기 하거나</description>
+    </item>
+    
+  </channel>
+</rss>
